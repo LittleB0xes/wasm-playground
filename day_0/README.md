@@ -1,4 +1,4 @@
-# Step 0 - An Empty Module
+# Day 0 - An Empty Module
 This step has, in itself, little interest. it's just a matter of creating our first file and testing our setup with a compilation without surprises :
 
 
@@ -21,7 +21,7 @@ Now, if we look inside our wasm file (with `xxd empty.wasm`), we've got a beutyf
 `00 61 73 6d` is the magic number for wasm file
 
 ## The JS part
-For now, I'm not going to bother with an HTML/JS file and a local server, I'm just going to use a very small JS file to use with NodeJS
+For now, I'm not going to bother with an HTML/JS file and a local server, I'm just going to use a very small JS file to use with NodeJS (don't forget npm init...)
 
 ```js
 import fs from 'fs'

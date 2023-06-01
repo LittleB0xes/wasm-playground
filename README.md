@@ -2,9 +2,13 @@
 
 But why ? 
 
-On m'a toujours dit que le wasm n'était pas fait pour être écrit à la main, qu'il fallait passer par un language intermédiaire (comme Rust, C, Go, ....)... Ok ... Mais franchement, avce quelques outils et un bon éditeur de texte, il doit bien y avoir moyen de s'amuser un peu non ?
+I was always told that the wasm was not made to be written by hand, that you had to go through an intermediate language (like Rust, C, Go),
 
-Ce repo est une sorte de journal de mon voyage avec wasm, les mains dans le cambouis
+... 
+
+Ok... But frankly, with a few tools and a good text editor, there must be a way to have a little fun, right?
+
+This repo is a kind of diary of my trip with wasm, hands dirty
 
 
 # A minimal setup
@@ -13,4 +17,8 @@ Ce repo est une sorte de journal de mon voyage avec wasm, les mains dans le camb
 - Node
 - And in some case, a local server to run the wasm in browser
 
-# Step 0 - An Empty Module
+
+# An Unexpectable Journey
+- Day 0 - [An Empty Module](https://github.com/LittleB0xes/wasm-playground/tree/main/day_0)
+- Day 1 - [First Function](https://github.com/LittleB0xes/wasm-playground/tree/main/day_0)
+

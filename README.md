@@ -13,7 +13,7 @@ This repo is a kind of diary of my trip with wasm, hands dirty
 
 # A minimal setup
 - A text editor
-- Some tools to compile `.wat`file to `./wasm` file, like [WABT](https://github.com/WebAssembly/wabt)
+- Some tools to compile `.wat`file to `.wasm` file, like [WABT](https://github.com/WebAssembly/wabt)
 - Node
 - And in some case, a local server to run the wasm in browser
 

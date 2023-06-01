@@ -20,5 +20,5 @@ This repo is a kind of diary of my trip with wasm, hands dirty
 
 # An Unexpectable Journey
 - Day 0 - [An Empty Module](https://github.com/LittleB0xes/wasm-playground/tree/main/day_0)
-- Day 1 - [First Function](https://github.com/LittleB0xes/wasm-playground/tree/main/day_0)
+- Day 1 - [First Function](https://github.com/LittleB0xes/wasm-playground/tree/main/day_1)
 

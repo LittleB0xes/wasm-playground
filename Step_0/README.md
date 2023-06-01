@@ -14,7 +14,9 @@ Now, we can compile with WABT :
 `wat2wasm empty.wat -o empty.wasm`
 
 Now, if we look inside our wasm file (with `xxd empty.wasm`), we've got a beutyful binary file
-`00000000: 0061 736d 0100 0000                      .asm....`
+```
+00000000: 0061 736d 0100 0000                      .asm....
+```
 
 `00 61 73 6d` is the magic number for wasm file
 

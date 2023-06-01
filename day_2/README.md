@@ -17,9 +17,11 @@ In return, after consuming the arguments, the function will push the result onto
 
     i32.add
  )
+ ```
 
 In wasm, a module is a big S expression and with this in mind, we can also code the previous 5 lines of code in a more compact way (one line), but a little less readable :-D
 But it also works
+
 ```wasm
 (func $pythagoras_summoning (param $a i32) (param $b i32) (result i32)
     (i32.add (call $square (local.get $a)) (call $square (local.get $b))) 

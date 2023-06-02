@@ -53,6 +53,25 @@ Wasm is a stack based machine with a bunch of function usefull for stack manipul
 
 Our wasm function's result (aka return value) is the last element of the stack
 
+What happens in the stack ?
+For example, if we call `square` with `4` as parameter
+
+```
+|   |              | 4 |              | 4 |              | 16|   
++---+              +---+              +---+              +---+
+|   |              |   |              | 4 |              |   |   
++---+              +---+              +---+              +---+
+|   |              |   |              |   |              |   |   
++---+              +---+              +---+              +---+
+start            local.get 0        local.get 0        i32.mul
+
+The stack        push the param    push another        make operation
+is empty       on the top of the   time the param      (and consume the stack value)
+                stack              on the top of       and push the result
+                                    the stack          on the stack 
+
+```
+
 But for now, our function is only visible from inside our wasm module. It must therefore be exported to make it visible from the outside.
 
 So we need to add this in our module to make it a bit less...introverted

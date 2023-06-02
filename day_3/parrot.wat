@@ -10,10 +10,8 @@
     (local $counter i32)        ;; The short term memory of our parrot
 
     (loop $count_loop
-    
-
         local.get $counter      ;; get the counter value
-        i32.const 1             ;; push 1 onto the stack
+        i32.const -1             ;; push 1 onto the stack
         i32.add                 ;; add the two values
 
         local.tee $counter

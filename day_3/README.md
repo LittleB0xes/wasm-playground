@@ -1,4 +1,4 @@
-# Can You write something ?
+# Can You Say Something ?
 
 It's time to go a little further, just a little bit. How do I write something with wasm? Basically, wasm doesn't know how to do it: he needs help. Here, Javascript will give it this power.
 

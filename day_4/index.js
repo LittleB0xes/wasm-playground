@@ -12,7 +12,3 @@ let parrot = await WebAssembly.instantiate(new Uint8Array(speaker), importObject
 parrot.count_to(5);
 parrot.count_to(-5);
 parrot.count_to(0);
-
-// console.log(parrot.sign(5))
-// console.log(parrot.sign(0))
-// console.log(parrot.sign(-5))
